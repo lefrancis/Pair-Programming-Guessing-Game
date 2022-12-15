@@ -18,9 +18,10 @@ if(click<=5){
     let j=input.value
     mynum.innerHTML +=j+", "  
 if(input.value==x){
-    h1.innerHTML = "You Win"
+    h1.innerHTML = "You Win!"
     h2.innerHTML = input.value +" is the number!"
     h1.style.color = "green"
+    h2.style.color = "darkgreen"
   }else{if(input.value>x){
     h1.innerHTML = "Go Lower"
     h1.style.color = "teal"
@@ -44,8 +45,9 @@ if(input.value==x){
     h2.style.color = "blue"
   }}}
 }else{
-    h1.innerHTML = "You Lose"
-    h2.innerHTML = ""
+    h1.innerHTML = "You Lose!"
+    h2.innerHTML = "BOO! LOSER!"
+    h2.style.color = "orangered"
     h1.style.color = "orangered"
 }});
 

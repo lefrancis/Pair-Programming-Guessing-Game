@@ -7,7 +7,7 @@ body{
     align-items: center;
     font-family: 'Press Start 2P';
     font-size: 15px;
-    color:teal
+    color: teal
 }
 button:hover{
     background-color: darkcyan;
@@ -29,7 +29,8 @@ button{
 h3{
     font-size: 30px;
     margin: 0;
-    color:tomato
+    color:tomato;
+    font-style: italic;
 }
 #help{
     height:100px
@@ -45,5 +46,4 @@ input{
     margin: 0;
     font-family: 'Press Start 2P'
 }
-
 /* All code written for this game was written by Sandro Tskitishvili */
