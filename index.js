@@ -1,5 +1,4 @@
 // All code written for this game was written by Sandro Tskitishvili
-
 let x = Math.floor(Math.random() * 100) +1;
 let y = Math.floor(Math.random() * 100) +1;
 let z = Math.floor(Math.random() * 100) +1;
