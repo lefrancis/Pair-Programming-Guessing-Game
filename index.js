@@ -1,5 +1,4 @@
-// All code written for this game was written by Sandro Tskitishvili
-
+// All code written for this game were written solely by Sandro Tskitishvili.
 let x = Math.floor(Math.random() * 100) +1;
 let y = Math.floor(Math.random() * 100) +1;
 let z = Math.floor(Math.random() * 100) +1;
@@ -62,5 +61,4 @@ hint.addEventListener("click", function () {
 
 reset.addEventListener("click", function () {
 location.reload()})
-
-// All code written for this game was written by Sandro Tskitishvili
+// All code written for this game were written solely by Sandro Tskitishvili.
