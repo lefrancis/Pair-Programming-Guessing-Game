@@ -83,3 +83,5 @@ Guess.addEventListener("click", function () {
 		h2.innerHTML = "";
 	}
 });
+
+console.log();
